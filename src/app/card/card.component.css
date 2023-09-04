@@ -1,0 +1,71 @@
+.main-card {
+  width: 800px;
+  height: 550px;
+  box-shadow: 10px 10px 25px hsl(221, 100%, 96%);
+  position: absolute;
+  top: 13%;
+  left: 22%;
+  border-radius: 30px;
+}
+
+.d-flex1 {
+  display: flex;
+}
+
+.box1 {
+  width: 50%;
+  height: 550px;
+  background: linear-gradient(
+    180deg,
+    hsl(252, 100%, 67%) 0%,
+    hsl(241, 81%, 54%) 100%
+  );
+  border-radius: 30px;
+  text-align: center;
+}
+
+.head-text-box1 {
+  color: lightgray;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.circle-box1 {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1) 0%,
+    hsla(241, 72%, 46%, 0) 100%
+  );
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.scoreText {
+  font-size: 72px;
+  font-weight: bold;
+  color: white;
+}
+
+.textOutOf {
+  color: #c0c0c0;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.greatText {
+  font-size: 36px;
+  color: white;
+}
+
+.subText {
+  color: lightgray;
+  font-size: 18px;
+}
+
+.box2 {
+  width: 50%;
+  height: 550px;
+}
