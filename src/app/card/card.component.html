@@ -1,38 +1,119 @@
 <div class="main-card">
+  <div class="d-flex1">
+    <div class="p-2 flex-fill box1">
+      <br /><br />
+      <span class="head-text-box1">Your Result</span>
 
-    <div class="d-flex1">
-        <div class="p-2 flex-fill box1">
+      <br /><br /><br /><br />
 
-            <br><br>
-            <span class="head-text-box1">Your Result</span>
-
-            <br><br><br><br>
-
-            <div class="circle-box1">
-                <br><br>
-                <span class="scoreText">{{overallScore}}</span>
-                <br>
-                <span class="textOutOf">of 100</span>
-
-            </div>
-
-            <br><br><br><br>
-
-            <span class="greatText">Great</span>
-
-            <br><br>
-
-            <span class="subText">
-                You scored higher than 65% of <br>
-                the people who have taken <br>
-                these tests.
-            </span>
-            
-
-        </div>
-
-
-        <div class="p-2 flex-fill box2">Flex item</div>
+      <div class="circle-box1">
+        <br /><br />
+        <span class="scoreText">{{ overallScore }}</span>
+        <br />
+        <span class="textOutOf">of 100</span>
       </div>
 
+      <br /><br /><br /><br />
+
+      <span class="greatText">Great</span>
+
+      <br /><br />
+
+      <span class="subText">
+        You scored higher than 65% of <br />
+        the people who have taken <br />
+        these tests.
+      </span>
+    </div>
+
+    <div class="p-2 flex-fill box2">
+      <div class="box2-in">
+        <span class="head-box2">Summary</span>
+
+        <br /><br /><br />
+
+        <div class="d-flex-sub-boxes">
+          <div class="p-2 flex-fill red-box1">
+            <ng-container *ngIf="reaction">
+              <img [src]="reaction.icon" class="img-reaction" />
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill red-box2">
+            <ng-container *ngIf="reaction">
+              {{ reaction.category }}
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill red-box3">
+            <ng-container *ngIf="reaction">
+              <span class="score-text">{{ reaction.score }}</span> / 100
+            </ng-container>
+          </div>
+        </div>
+
+        <br /><br />
+
+        <div class="d-flex-sub-boxes2">
+          <div class="p-2 flex-fill yellow-box1">
+            <ng-container *ngIf="memory">
+              <img [src]="memory.icon" class="img-reaction" />
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill yellow-box2">
+            <ng-container *ngIf="memory">
+              {{ memory.category }}
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill yellow-box3">
+            <ng-container *ngIf="memory">
+              <span class="score-text">{{ memory.score }}</span> / 100
+            </ng-container>
+          </div>
+        </div>
+
+        <br /><br />
+
+        <div class="d-flex-sub-boxes3">
+          <div class="p-2 flex-fill teal-box1">
+            <ng-container *ngIf="verbal">
+              <img [src]="verbal.icon" class="img-reaction" />
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill teal-box2">
+            <ng-container *ngIf="verbal">
+              {{ verbal.category }}
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill teal-box3">
+            <ng-container *ngIf="verbal">
+              <span class="score-text">{{ verbal.score }}</span> / 100
+            </ng-container>
+          </div>
+        </div>
+
+        <br /><br />
+
+        <div class="d-flex-sub-boxes4">
+          <div class="p-2 flex-fill purple-box1">
+            <ng-container *ngIf="visual">
+              <img [src]="visual.icon" class="img-reaction" />
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill purple-box2">
+            <ng-container *ngIf="visual">
+              {{ visual.category }}
+            </ng-container>
+          </div>
+          <div class="p-2 flex-fill purple-box3">
+            <ng-container *ngIf="visual">
+              <span class="score-text">{{ visual.score }}</span> / 100
+            </ng-container>
+          </div>
+        </div>
+
+        <br /><br />
+
+        <button class="continue-btn">Continue</button>
+      </div>
+    </div>
+  </div>
 </div>

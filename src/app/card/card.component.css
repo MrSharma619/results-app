@@ -69,3 +69,147 @@
   width: 50%;
   height: 550px;
 }
+
+.box2-in {
+  height: 100%;
+  width: 100%;
+  margin: 38px;
+}
+
+.head-box2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.d-flex-sub-boxes {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: hsl(0, 100%, 90%);
+}
+
+.red-box1 {
+  padding: 15px 15px 15px 30px;
+  font-size: 18px;
+}
+
+.red-box2 {
+  padding: 15px 15px 15px 0px;
+  font-size: 18px;
+  color: hsl(0, 100%, 40%);
+  font-weight: bold;
+}
+
+.red-box3 {
+  padding: 15px 15px 15px 60px;
+  font-size: 18px;
+  color: gray;
+}
+
+.score-text {
+  color: hsl(224, 30%, 27%);
+  font-weight: bold;
+}
+
+.d-flex-sub-boxes2 {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: hsl(39, 100%, 90%);
+}
+
+.yellow-box1 {
+  padding: 15px 15px 15px 30px;
+  font-size: 18px;
+}
+
+.yellow-box2 {
+  padding: 15px 15px 15px 0px;
+  font-size: 18px;
+  color: hsl(39, 100%, 46%);
+  font-weight: bold;
+}
+
+.yellow-box3 {
+  padding: 15px 15px 15px 60px;
+  font-size: 18px;
+  color: gray;
+}
+
+.d-flex-sub-boxes3 {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: hsl(166, 100%, 90%);
+}
+
+.teal-box1 {
+  padding: 15px 15px 15px 30px;
+  font-size: 18px;
+}
+
+.teal-box2 {
+  padding: 15px 15px 15px 0px;
+  font-size: 18px;
+  color: hsl(166, 100%, 37%);
+  font-weight: bold;
+}
+
+.teal-box3 {
+  padding: 15px 15px 15px 73px;
+  font-size: 18px;
+  color: gray;
+}
+
+.d-flex-sub-boxes4 {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: hsl(234, 85%, 90%);
+}
+
+.purple-box1 {
+  padding: 15px 15px 15px 30px;
+  font-size: 18px;
+}
+
+.purple-box2 {
+  padding: 15px 15px 15px 0px;
+  font-size: 18px;
+  color: hsl(234, 85%, 45%);
+  font-weight: bold;
+}
+
+.purple-box3 {
+  padding: 15px 15px 15px 75px;
+  font-size: 18px;
+  color: gray;
+}
+
+.continue-btn {
+  appearance: none;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 100px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: normal;
+  margin-left: 50px;
+  min-height: 60px;
+  width: 200px;
+  outline: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.continue-btn:hover {
+  background-color: hsl(252, 100%, 50%);
+}
